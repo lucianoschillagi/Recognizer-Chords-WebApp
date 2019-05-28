@@ -2,7 +2,6 @@
   margin: 0;
 }
 
-
 body {
   background-color: white;
 }
@@ -61,13 +60,14 @@ ul.language li {
 
 /* main  */
 main {
-  width: 100%;
+  float: left;
+  width: 95%;
   height: 500px;
-  background-color: black;
 }
 
 .left-side {
 
+  position: relative;
   float: left;
   width: 50%;
   height: 500px;
@@ -77,6 +77,7 @@ main {
 
 .right-side {
 
+  position: relative;
   float: left;
   width: 50%;
   height: 500px;
@@ -84,11 +85,32 @@ main {
   
 } 
 
+button {
+  position: absoulte;
+  width: 150px;
+  height: 150px;
+  background-color: cadetblue;
+  top: 200px;
+  left: 200px;
 
+}
 
+.play {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 40%;
+  left: 46.5%;
+  background-color: blueviolet;
+}
 
-
-
+/* aside  */
+aside {
+  float: left;
+  background-color: brown;
+  width: 5%;
+  height: 500px;
+}
 
 
 /* footer  */
